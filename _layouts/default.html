@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  {% include head.html %}
+
+  <body class="theme-base-pirate">
+
+    {% include sidebar.html %}
+
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
+            <small>{{ site.tagline }}</small>
+          </h3>
+        </div>
+      </div>
+
+      <div class="container content">
+        {{ content }}
+      </div>
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+
+      <div id="signup" style="display:none;">
+      <h2>Join The Party For Free!</h2>
+      <form action="https://sso.pirateparty.ca" method="POST">
+        <p>
+        <label for="userEmail">Your email</label>
+        <input class="u-full-width" type="email" name="userEmail" placeholder="test@mailbox.com" id="userEmail">
+        </p>
+        <p>
+        <label for="userPassword">Your passphrase</label>
+        <input class="u-full-width" type="password" name="userPassword" placeholder="A good password is a phrase with punctuation." id="userPassword">
+        </p>
+        <p style="text-align:center;">
+        <input class="btn" type="submit" name="loginSubmit" value="Login/Register">
+        </p>
+      </form>
+  </div>
+
+
+    <script>
+      (function(document) {
+        var toggle = document.querySelector('.sidebar-toggle');
+        var sidebar = document.querySelector('#sidebar');
+        var checkbox = document.querySelector('#sidebar-checkbox');
+
+        document.addEventListener('click', function(e) {
+          var target = e.target;
+
+          if(!checkbox.checked ||
+             sidebar.contains(target) ||
+             (target === checkbox || target === toggle)) return;
+
+          checkbox.checked = false;
+        }, false);
+      })(document);
+    </script>
+    <script   src="https://code.jquery.com/jquery-3.1.1.slim.min.js"   integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc="   crossorigin="anonymous"></script>
+    <script src="/public/js/jquery.modal.js" type="text/javascript" charset="utf-8"></script>
+    <link rel="stylesheet" href="/public/js/jquery.modal.css" type="text/css" media="screen" />
+  </body>
+</html>
