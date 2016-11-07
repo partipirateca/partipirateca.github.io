@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: Au sujet de
 ---
 
 To describe the goal of the Pirate Party in a single word, I would use &#8220;empowerment&#8221;. The beauty of the Internet and information technology is the ability for a poor child to have the same opportunities to create change as a wealthy privileged adult. It is the goal of the Pirate Party to encourage that strength, and to promote values which will empower every Canadian.

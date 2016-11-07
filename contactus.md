@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Contact Us
+title: Contactez nous
 ---
 
 If you would like to contact us here are the best methods:
