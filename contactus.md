@@ -12,7 +12,7 @@ Si vous désirez nous contacter, voici les meilleures façons:
 Les membres de la presse peuvent communiquer avec nous par courriel au press@pirateparty.ca pour planifier des entrevues, poser des questions et planifier des appels téléphoniques. Les courriels sont généralement traités en moins d'une heure pendant les heures normales d'affaires (Heure du pacifique).
 
 
-*** Prenez note ***: Nous ferons tout notre possible pour répondre aux courriels dans la langue que nous les recevons, pour le moment, dans le but de s'assurer de la clarté du message, nous ne ferons que des entrevues en anglais..
+***Prenez note***: Nous ferons tout notre possible pour répondre aux courriels dans la langue que nous les recevons, pour le moment, dans le but de s'assurer de la clarté du message, nous ne ferons que des entrevues en anglais.
 
 
 ## Public / Membres
